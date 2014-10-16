@@ -6,6 +6,11 @@ body, html {
   border: 0px;
   padding: 0px;
   background-color: rgb(245, 245, 245);
+  -webkit-transition: background-color 0.5s ease-in-out;
+  -moz-transition: background-color 0.5s ease-in-out;
+  -ms-transition: background-color 0.5s ease-in-out;
+  -o-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
   overflow: hidden;
   font-family: 'helvetica';
   font-weight: 400;

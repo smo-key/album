@@ -5,7 +5,7 @@ body, html {
   margin: 0px;
   border: 0px;
   padding: 0px;
-  background-color: #000000;
+  background-color: rgb(245, 245, 245);
   overflow: hidden;
   font-family: 'helvetica';
   font-weight: 400;
@@ -35,7 +35,7 @@ body, html {
   z-index: 15;
   position: absolute;
 }
-#copyright {
+/*#copyright {
   color: #ccc;
   bottom: 10px;
   width: 100%;
@@ -43,75 +43,14 @@ body, html {
   position: absolute;
   font-size: 10px;
   text-align: center;
-}
+}*/
 
-.datelabels {
-  color: #fff;
-  bottom: 11px;
-  left: 46px;
-  z-index: 15;
-  position: absolute;
-/*  width: 200px;*/
-}
-
-.timerlabel {
-  color: #ccc;
-  bottom: 11px;
-  left: 86px;
-  z-index: 15;
-  position: absolute;
-  font-size: 18px;
-}
-
-.datemonth {
-  z-index: 15;
-  position: relative;
-  font-size: 16px;
-  float: left;
-  padding-right: 6px;
-  font-size: 18px;
-}
-
-.dateyear {
-  z-index: 15;
-  position: relative;
-  font-size: 16px;
-  float: left;
-  padding-right: 6px;
-  font-size: 18px;
-}
-
-#gui-container {
-  display: block;
-  background: #000;
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  width: 260px;
-  height: 0px;
-  overflow: visible;
-  z-index: 60;
-}
-
-#loadcontainer {
-  display: block;
-  width: 100%;
-  z-index: 2;
-  position: absolute;
-  text-align: center;
-  color: #fff;
-  font-family: 'helvetica';
-  font-weight: 400;
-  font-style: normal;
-  font-size: 28px;
-}
-
+/* Fixers */
 .verticalmiddle {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
-
 select {
   color: #000;
 }
@@ -127,56 +66,6 @@ input {
   right: 16px;
   bottom: 8px;
   z-index: 10;
-}
-
-#togithub {
-  color: #fff;
-  position: absolute;
-  right: 56px;
-  bottom: 8px;
-  z-index: 10;
-  font-size: 14px;
-}
-
-#runbutton {
-  color: #fff;
-  position: absolute;
-  left: 16px;
-  bottom: 8px;
-  z-index: 10;
-}
-
-#resetbutton {
-  color: #fff;
-  position: absolute;
-  left: 44px;
-  bottom: 8px;
-  z-index: 10;
-}
-
-.satcircle {
-  z-index: 8;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  position: absolute;
-  display: none;
-  font-size: 8px;
-}
-
-.sattext {
-  z-index: 7;
-  position: absolute;
-  display: none;
-  font-size: 12px;
-  width: 60px;
-}
-
-.timetype {
-  z-index: 2;
-  position: absolute;
-  color: #ccc;
-  font-size: 10px;
 }
 
 /* Fading Icon */
@@ -196,7 +85,7 @@ input {
 }
 
 @media screen and (max-width: 560px){
-  #title {
+  /*#title {
     color: #fff;
     text-align: center;
     top: 8px;
@@ -215,5 +104,5 @@ input {
     z-index: 15;
     margin: none;
     padding: none;
-  }
+  }*/
 }

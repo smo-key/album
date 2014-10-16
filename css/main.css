@@ -83,6 +83,7 @@ input {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
   color: #222;
+  margin: 0px 0px 4px 0px;
 }
 .row span:hover {
   border: 3px solid #333;
@@ -107,26 +108,23 @@ input {
 .row .t {
   display: block;
   border: 0;
+  color: #666;
 }
-.row .t:hover {
+.row .t:hover,
+.row .t:active {
   border: 0;
   background-color: #eee;
-  color: #000;
+  color: #222;
 }
 .row .t h4 {
   margin: 0;
 }
-.row .t h4 span {
+.row .t h4 p {
   font-size: 24px;
   padding-right: 4px;
   border: 0;
   padding-left: 4px;
   padding-top: 4px;
-}
-.row .t h4 span:hover {
-  color: inherit;
-  background-color: inherit;
-  border: 0;
 }
 
 /* Fullscreen Button */

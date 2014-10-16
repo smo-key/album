@@ -103,6 +103,32 @@ input {
   display: inline-block;
 }
 
+/* TITLES */
+.row .t {
+  display: block;
+  border: 0;
+}
+.row .t:hover {
+  border: 0;
+  background-color: #eee;
+  color: #000;
+}
+.row .t h4 {
+  margin: 0;
+}
+.row .t h4 span {
+  font-size: 24px;
+  padding-right: 4px;
+  border: 0;
+  padding-left: 4px;
+  padding-top: 4px;
+}
+.row .t h4 span:hover {
+  color: inherit;
+  background-color: inherit;
+  border: 0;
+}
+
 /* Fullscreen Button */
 #fsbutton {
   color: #fff;
